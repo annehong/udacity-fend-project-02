@@ -26,10 +26,10 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+/* article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
-}
+} */
 body {
 	line-height: 1;
 }
@@ -62,6 +62,7 @@ body {
 	font-family: 'Poiret One', cursive;
 	*/
 	font-family: 'Montserrat', 'Open Sans', sans-serif;
+	color: #2d3c49;
 	width: 710px;
 	margin-left: auto;
 	margin-right: auto;
@@ -75,19 +76,17 @@ body {
 	padding-top: auto;
 	padding-bottom: auto;
 	margin-top: 25px;
-	margin-bottom: 25px;
-	position: relative; /*not sure if I need*/
 }
 
-.header .align-left {
+.align-left {
 	float: left;
 }
 
-.header .align-right {
+.align-right {
 	float: right;
 }
 
-.header h1 {
+.header__inner h1 {
 	font-size: 48px;
 	font-weight: 200;
 	margin-top: 0;
@@ -95,19 +94,52 @@ body {
 	padding: 0;
 }
 
-.header h2 {
-	font-size: 18px
+.header__inner h2 {
+	font-size: 18px;
+	margin-bottom: 25px;
 }
 
-/* .portfolio-header hr {
-	border: 1px solid blue;
-} */
+hr {
+	width: 100% !important;
+	margin-top: 25px;
+	border: 0.5px solid #7d97ad;
+}
+
+.content {
+	display: flex;
+	flex-wrap: wrap;
+}
 
 .hero {
 	width: 100%;
+	height: 350px;
 	position: relative;
-	background-image: url("/img/HongAnne_24.jpg");
+	background-image: url("../img/HongAnne_24.jpg");
 	background-size: cover;
+	margin-top: 25px;
 }
+
+.hero h3 {
+	color: pink;
+	font-size: 18px;
+	margin-left: 300px;
+	margin-top: 300px;
+}
+
+.portfolio__sections h2 {
+	margin-top: 30px;
+	margin-bottom: 14px;
+	color: #7d97ad;
+	font-size: 24px;
+}
+
+.portfolio__sections img {
+	border: 0.5px solid #7d97ad;
+}
+
+.container {
+	display: flex;
+}
+
 
 
