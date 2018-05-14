@@ -55,9 +55,59 @@ table {
 
 body {
 	/* https://fonts.google.com/?selection.family=Great+Vibes|Montserrat|Open+Sans|Poiret+One|Quicksand&query=open */
+	/* styles to experiment later
 	font-family: 'Montserrat', sans-serif;
 	font-family: 'Quicksand', sans-serif;
 	font-family: 'Great Vibes', cursive;
 	font-family: 'Poiret One', cursive;
-	font-family: 'Open Sans', sans-serif;
+	*/
+	font-family: 'Montserrat', 'Open Sans', sans-serif;
+	width: 710px;
+	margin-left: auto;
+	margin-right: auto;
 }
+
+.header {
+	width: 100%;
+	clear: both;
+	text-transform: uppercase;
+	text-align: right;
+	padding-top: auto;
+	padding-bottom: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	position: relative; /*not sure if I need*/
+}
+
+.header .align-left {
+	float: left;
+}
+
+.header .align-right {
+	float: right;
+}
+
+.header h1 {
+	font-size: 48px;
+	font-weight: 200;
+	margin-top: 0;
+	margin-bottom: 3px;
+	padding: 0;
+}
+
+.header h2 {
+	font-size: 18px
+}
+
+/* .portfolio-header hr {
+	border: 1px solid blue;
+} */
+
+.hero {
+	width: 100%;
+	position: relative;
+	background-image: url("/img/HongAnne_24.jpg");
+	background-size: cover;
+}
+
+
