@@ -10,3 +10,18 @@ https://github.com/annehong/udacity-fend-project-02
 * -Would like to make a note about id's (easier to use for accessibility especially for radio buttons)
 * -Removed additional whitespace
 * -Added this summary list to the README.MD file
+
+##Reference urls from rubric feedback
+* https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/Introduction_to_HTML5
+* https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag
+* https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
+* https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
+* https://www.quora.com/Is-it-better-or-worse-to-have-media-queries-in-a-separate-CSS-file
+* https://stackoverflow.com/questions/8284365/external-css-vs-inline-style-performance-difference
+* https://hackhands.com/70-Expert-Ideas-For-Better-CSS-Coding/
+
+##Reference urls from mentor PRABHSIMRAN, some references to calc and vw
+* https://css-tricks.com/viewport-sized-typography/
+* https://css-tricks.com/snippets/css/fluid-typography/
+* Regarding responsive images: https://www.w3schools.com/howto/howto_css_image_responsive.asp
+* https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
