@@ -32,3 +32,6 @@ https://github.com/annehong/udacity-fend-project-02
 * -Removed the style from the Udacity logo
 * -Made various formatting changes
 * -Added flex rule to header
+
+##Reference urls from the second rubric revies
+* https://css-tricks.com/snippets/css/a-guide-to-flexbox/
