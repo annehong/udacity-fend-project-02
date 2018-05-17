@@ -25,17 +25,22 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 /* article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 } */
+
 body {
 	line-height: 1;
 }
-ol, ul {
+
+ol, 
+ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
@@ -64,13 +69,11 @@ body {
 	font-family: 'Montserrat', 'Open Sans', sans-serif;
 	color: #2d3c49;
 	width: 710px;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto;
 }
 
 .portfolio__head {
 	width: 100%;
-	clear: both;
 	text-transform: uppercase;
 	text-align: right;
 	padding-top: auto;
@@ -79,11 +82,16 @@ body {
 }
 
 .portfolio__logo {
-	float: left;
+	display: flex;
+}
+
+.portfolio__logo svg {
+	fill:#02b3e4;
 }
 
 .author {
-	float: right;
+	/* float: right; */
+	margin-top: -70px;
 }
 
 .head__inner h1 {

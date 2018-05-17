@@ -25,3 +25,10 @@ https://github.com/annehong/udacity-fend-project-02
 * https://css-tricks.com/snippets/css/fluid-typography/
 * Regarding responsive images: https://www.w3schools.com/howto/howto_css_image_responsive.asp
 * https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
+
+
+##20180517 Additional edits from rubric feedback
+* -Added language attribute to html
+* -Removed the style from the Udacity logo
+* -Made various formatting changes
+* -Added flex rule to header
